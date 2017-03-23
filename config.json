@@ -1,0 +1,15 @@
+{
+    "email": {
+        "from": "github-hook@interactivemechanics.com",
+        "to": "mike@interactivemechanics.com"
+    },
+    "endpoints": [
+        {
+            "repo": "InteractiveMechanics/ashbrook",
+            "branch": "staging",
+            "action": "Ashbrook - Staging has been automatically updated.",
+            "run": "/var/www/vhosts/interactivemechanics.com/dev/ashbrook/git-automation.sh",
+            "secret": "ashbrook"
+        }
+    ]
+}
